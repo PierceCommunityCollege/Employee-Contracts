@@ -1,0 +1,99 @@
+﻿/** From http://www.alistapart.com/articles/goingtoprint/ **/
+
+body {
+   background: white;
+   font-size: 12pt;
+   font-family: Courier New, Courier, Andale Mono, Monospace;
+   }
+.titleBold 
+{
+	font-size:larger;
+	font-weight:bold;
+}
+.title
+{
+	font-size:larger;
+}
+table#signature
+{
+	border:1px solid black;
+	border-collapse:collapse;
+	width:550px;
+}
+td.outline
+{
+	border:1px solid black;
+	white-space:nowrap;
+}
+table#note
+{
+	border-style:double;
+	border-width:medium;
+}
+#menu {
+   display: none;
+   }
+#wrapper, #content {
+   width: auto;
+   margin: 0 5%;
+   padding: 0;
+   border: 0;
+   float: none !important;
+   color: black;
+   background: transparent none;
+   }
+div#content {
+   margin-left: 2%;
+   padding-top: 1em;
+   white-space: pre;
+   /*border-top: 1px solid #930;*/
+   }
+div#mast {
+   margin-bottom: -8px;
+   }
+div#mast img {
+   vertical-align: bottom;
+   }
+div#note
+{
+	position: absolute;
+	left: 200px;
+	top: 50px;
+	z-index: 1;
+	background-color: Gray;
+	font-family: Arial, Verdana, Helvetica, Sans-Serif;
+	font-weight:bold;
+	width: 560px;
+}
+div#footer {
+	border-top: 2px solid #990534;
+	color: #333;
+	font: 11px/14px Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin: 0 auto;
+	padding: 5px 0;
+	width: 750px;
+	float: left;
+}
+a:link, a:visited {
+   color: #520;
+   background: transparent;
+   font-weight: bold;
+   text-decoration: underline;
+   }
+#content a:link:after, #content a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+   }
+#content a[href^="/"]:after {
+   content: " (https://intranet.pierce.ctc.edu/webapps/employeecontract" attr(href) ") ";
+   }
+   
+@media print 
+{
+	div#note, div#footer 
+	{
+		display: none;
+	}
+}
+

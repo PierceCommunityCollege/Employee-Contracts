@@ -1,0 +1,109 @@
+open
+L 401570PARM     PARMREPLACE
+NUMBER ACCOUNT  JOB-NAME JOBGROUP JOB-STATUS PRIOR  PR ET PF JOB-NUM  RUN-DT DF
+401570 PS110    PS4031J  PG608R   COMPLETED  401569 00 I     J3206    180502 01
+  DESTIN=        ;INTR-GROUP=853819;DEL-FLAG=01;PARM-KEY=853819
+  INIT-TIME=      ;INIT-DATE=000000
+  RUN-TIME=141403;RUN-DATE=180502
+  END-TIME=141406;END-DATE=180502
+ 
+ 
+ -- PARAMETERS: 
+ACCT            =P110                                                        
+P110
+
+CLASS-FORMAT    =B                                                           
+B
+
+CON-BEG-MSG1    =THIS CONFIRMS YOUR AGREEMENT TO CONDUCT THE CLASS BELOW.    
+THIS CONFIRMS YOUR AGREEMENT TO CONDUCT THE CLASS BELOW.
+
+CON-BEG-MSG2    =PERFORMANCE OF DUTIES SHALL BE AS PRESCRIBED BY THE LAWS,   
+PERFORMANCE OF DUTIES SHALL BE AS PRESCRIBED BY THE LAWS,
+
+CON-BEG-MSG3    =RULES, REGULATIONS AND POLICIES OF WASHINGTON STATE, SBCTC  
+RULES, REGULATIONS AND POLICIES OF WASHINGTON STATE, SBCTC
+
+CON-BEG-MSG4    =AND BOARD OF TRUSTEES AS ADOPTED/AMENDED.  THEY ARE HEREBY  
+AND BOARD OF TRUSTEES AS ADOPTED/AMENDED.  THEY ARE HEREBY
+
+CON-BEG-MSG5    =MADE PART OF THE TERMS AND CONDITIONS OF THIS APPOINTMENT.  
+MADE PART OF THE TERMS AND CONDITIONS OF THIS APPOINTMENT.
+
+CON-END-MSG1    =EMPLOYMENT MAY BE TERMINATED AT THE SOLE OPTION OF THE      
+EMPLOYMENT MAY BE TERMINATED AT THE SOLE OPTION OF THE
+
+CON-END-MSG2    =COLLEGE DUE TO: 1)INSUFFICIENT ENROLLMENT 2) REPLACEMENT BY 
+COLLEGE DUE TO: 1)INSUFFICIENT ENROLLMENT 2) REPLACEMENT BY
+
+CON-END-MSG3    =A FULL-TIME EMPLOYEE AS ADMINISTRATION DEEMS NECESSARY, OR  
+A FULL-TIME EMPLOYEE AS ADMINISTRATION DEEMS NECESSARY, OR
+
+CON-END-MSG4    =3) UNSATISFACTORY JOB PERFORMANCE.  IN THE EVENT OF SUCH    
+3) UNSATISFACTORY JOB PERFORMANCE.  IN THE EVENT OF SUCH
+
+CON-END-MSG5    =CANCELLATION, THE EMPLOYEE SHALL BE PAID FOR SESSIONS HELD. 
+CANCELLATION, THE EMPLOYEE SHALL BE PAID FOR SESSIONS HELD.
+
+CON-MAX-LINES   =55                                                          
+55
+
+LIBACCT         =PLIB                                                        
+PLIB
+
+LIBGRP          =EXC                                                         
+EXC
+
+CON-RUN-OPT     =F                                                           
+F
+
+ID-PRINT-OPT    =S                                                           
+S
+
+INSTR-LINE1     =                                                            
+
+
+INSTR-LINE2     =                                                            
+
+
+ISSUE-DATE      =050218                                                      
+050218
+
+LEGAL-FILE-1    =N                                                           
+N
+
+LEGAL-FILE-2    =N                                                           
+N
+
+PS4031-PER-BEG  =000000                                                      
+000000
+
+PS4031-PER-END  =000000                                                      
+000000
+
+PYMT-DATE-OPTN  =1                                                           
+1
+
+REPRINT-DATE    =                                                            
+
+
+SIGNATURE-1     =                                                            
+
+
+SIGNATURE-2     =                                                            
+
+
+SIGNATURE-3     =                                                            
+
+
+SPCL-ASSGN-HR   =Y                                                           
+Y
+
+TOT-HR-PRT      =Y                                                           
+Y
+
+YRQ             =B784                                                        
+B784
+
+ --END LIST.
+&dJENTER JSU COMMAND: &d@ &d@

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeContract_WhiteLabel", "EmployeeContract_WhiteLabel\EmployeeContract_WhiteLabel.csproj", "{0B178138-9C60-44D0-8194-6BA965323EE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpConAdmin_WhiteLabel", "EmpConAdmin_WhiteLabel\EmpConAdmin_WhiteLabel.csproj", "{DD679DB9-62CE-4C52-8D43-DAB1F54CAD54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B178138-9C60-44D0-8194-6BA965323EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B178138-9C60-44D0-8194-6BA965323EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B178138-9C60-44D0-8194-6BA965323EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B178138-9C60-44D0-8194-6BA965323EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD679DB9-62CE-4C52-8D43-DAB1F54CAD54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD679DB9-62CE-4C52-8D43-DAB1F54CAD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD679DB9-62CE-4C52-8D43-DAB1F54CAD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD679DB9-62CE-4C52-8D43-DAB1F54CAD54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

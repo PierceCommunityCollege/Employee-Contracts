@@ -1,0 +1,174 @@
+/********************* RESET *********************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+:focus { outline: 0; }
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul { list-style: none; }
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+/********************* BASE *********************/
+body {
+	background: #fff url("img/bg.gif") repeat-x top left;
+	color: #333;
+	font: normal 13px/18px Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+ul li {
+		background: url("img/nav-bullet.gif") no-repeat 15px 9px;
+		line-height: 20px;
+		padding: 0 25px 5px 22px;
+}
+ol {
+	list-style: decimal;
+	margin: 0 25px 15px 30px;
+	padding: 0;
+}
+ul li ul { margin-bottom: 0; }
+
+strong { font-weight: bold; }
+em { font-style: italic; }
+
+a { color: #990534; font: 12px Arial, Helvetica, sans-serif; text-decoration: none; }
+a:hover { color: #333; }
+
+a img { border: none; }
+a:hover img { border: none; }
+
+p { line-height: 18px; padding-bottom: 10px; }
+
+h3 { font: bold 14px Arial, Helvetica, sans-serif; padding: 10px 0 5px 0; }
+h3 a { color: #333; font: bold 14px Arial, Helvetica, sans-serif; text-decoration: none; }
+h3 a:hover { color: #990534; font: bold 14px Arial, Helvetica, sans-serif; text-decoration: none; }
+
+/********************* LAYOUT *********************/
+#wrap {
+	background-color: #fff;
+	text-align: left;
+	display: table;
+	margin: 0 auto;
+	width: 950px;
+}
+
+#header, #header-main { height: 73px; margin-bottom: 15px; float: left; }
+#header-main { margin: 0; }
+	#header img, #header-main img { padding: 17px 0 0 0; float: left; }
+	#header #header-right, #header-main #header-right {
+		text-align: right;
+		padding: 17px 0 0 0;
+		width: 590px;
+		float: left;
+	}
+
+#body { width: 100%; float: left; }
+
+ul#nav {
+	background: url("img/nav-bg.jpg") repeat-x top left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 950px;
+	float: left;
+}
+ul#nav li { margin: 0; padding: 0; float: left; }
+ul#nav li a, ul#nav li a:link, ul#nav li a:active, ul#nav li a:visited {
+	background-color: #464646;
+	border-top: 4px solid #990534;
+	color: #cfc8bd;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding: 6px 10px;
+	width: 138px;
+	height: 15px;
+	margin: 0;
+}
+
+ul#nav li a:hover, ul#nav li:hover a { background: #e4d8a0; border-top: 4px solid #e4d8a0; color: #464646; }
+
+#nav-col{
+	border-top: 7px solid #ef9728;
+	width: 173px;
+	float: left;
+}
+#nav-col a img { float: left; }
+
+#column1, #column2 { border-top: 7px solid #ef9728; float: left; }
+	#column1 { width: 950px; }
+	#column2 { margin-left: 15px; width: 762px; }
+
+/********************* TEXT *********************/
+h1#title {
+	color: #333;
+	font: bold 24px Arial, Helvetica, sans-serif;
+	padding: 10px 0;
+}
+
+#nav-col, #nav-col ul li { font: 11px Arial, Helvetica, sans-serif; padding: 2px 0; }
+	#nav-col ul li a {
+		background: #fff url("img/nav-bullet.gif") no-repeat 5px 6px;
+		border: none;
+		color: #333;
+		font-size: 11px;
+		text-decoration: none;
+		padding-left: 12px;
+		display: block;
+	}
+		#nav-col ul li a:hover { color: #990534; border: none; }
+
+#nav-col p { line-height: 14px; }
+#nav-col a { color: #990534; font-size: 11px; text-decoration: none; }
+#nav-col a:hover { border-bottom: 1px dotted #990534; }
+
+#footer {
+	border-top: 2px solid #990534;
+	color: #333;
+	font: 11px/14px Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin: 0 auto;
+	padding: 5px 0;
+	width: 950px;
+	float: left;
+}
+
+/********************* STYLE *********************/
+
+

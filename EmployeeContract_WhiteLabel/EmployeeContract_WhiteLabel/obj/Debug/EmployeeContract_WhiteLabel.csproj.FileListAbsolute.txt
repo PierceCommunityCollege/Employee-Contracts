@@ -1,0 +1,4 @@
+c:\users\rcooke\documents\visual studio 2010\Projects\EmployeeContract_WhiteLabel\EmployeeContract_WhiteLabel\bin\EmployeeContract_WhiteLabel.dll
+c:\users\rcooke\documents\visual studio 2010\Projects\EmployeeContract_WhiteLabel\EmployeeContract_WhiteLabel\bin\EmployeeContract_WhiteLabel.pdb
+c:\users\rcooke\documents\visual studio 2010\Projects\EmployeeContract_WhiteLabel\EmployeeContract_WhiteLabel\obj\Debug\EmployeeContract_WhiteLabel.dll
+c:\users\rcooke\documents\visual studio 2010\Projects\EmployeeContract_WhiteLabel\EmployeeContract_WhiteLabel\obj\Debug\EmployeeContract_WhiteLabel.pdb

@@ -1,0 +1,12 @@
+c:\users\rcooke\documents\visual studio 2013\Projects\EmpConReader2017\EmpConReader2017\bin\Release\EmpConReader2017.exe.config
+c:\users\rcooke\documents\visual studio 2013\Projects\EmpConReader2017\EmpConReader2017\bin\Release\EmpConReader2017.exe
+c:\users\rcooke\documents\visual studio 2013\Projects\EmpConReader2017\EmpConReader2017\bin\Release\EmpConReader2017.pdb
+c:\users\rcooke\documents\visual studio 2013\Projects\EmpConReader2017\EmpConReader2017\obj\Release\EmpConReader2017.csprojResolveAssemblyReference.cache
+c:\users\rcooke\documents\visual studio 2013\Projects\EmpConReader2017\EmpConReader2017\obj\Release\EmpConReader2017.exe
+c:\users\rcooke\documents\visual studio 2013\Projects\EmpConReader2017\EmpConReader2017\obj\Release\EmpConReader2017.pdb
+C:\Users\RCooke\Projects\EmpConReader2017-WhiteLabel\EmpConReader2017\bin\Release\EmpConReader2017.exe.config
+C:\Users\RCooke\Projects\EmpConReader2017-WhiteLabel\EmpConReader2017\obj\Release\EmpConReader2017.exe
+C:\Users\RCooke\Projects\EmpConReader2017-WhiteLabel\EmpConReader2017\obj\Release\EmpConReader2017.pdb
+C:\Users\RCooke\Projects\EmpConReader2017-WhiteLabel\EmpConReader2017\bin\Release\EmpConReader2017.exe
+C:\Users\RCooke\Projects\EmpConReader2017-WhiteLabel\EmpConReader2017\bin\Release\EmpConReader2017.pdb
+C:\Users\RCooke\Projects\EmpConReader2017-WhiteLabel\EmpConReader2017\obj\Release\EmpConReader2017.csprojResolveAssemblyReference.cache

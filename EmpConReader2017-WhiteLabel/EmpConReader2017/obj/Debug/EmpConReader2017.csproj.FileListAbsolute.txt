@@ -1,0 +1,6 @@
+c:\users\rcooke\documents\visual studio 2013\Projects\EmpConReader2017\EmpConReader2017\bin\Debug\EmpConReader2017.exe.config
+c:\users\rcooke\documents\visual studio 2013\Projects\EmpConReader2017\EmpConReader2017\obj\Debug\EmpConReader2017.csprojResolveAssemblyReference.cache
+c:\users\rcooke\documents\visual studio 2013\Projects\EmpConReader2017\EmpConReader2017\bin\Debug\EmpConReader2017.exe
+c:\users\rcooke\documents\visual studio 2013\Projects\EmpConReader2017\EmpConReader2017\bin\Debug\EmpConReader2017.pdb
+c:\users\rcooke\documents\visual studio 2013\Projects\EmpConReader2017\EmpConReader2017\obj\Debug\EmpConReader2017.exe
+c:\users\rcooke\documents\visual studio 2013\Projects\EmpConReader2017\EmpConReader2017\obj\Debug\EmpConReader2017.pdb

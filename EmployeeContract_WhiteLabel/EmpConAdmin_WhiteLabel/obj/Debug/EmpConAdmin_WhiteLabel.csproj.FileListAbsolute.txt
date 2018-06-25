@@ -1,0 +1,4 @@
+C:\Users\rcooke\Documents\Visual Studio 2010\Projects\EmployeeContract_WhiteLabel\EmpConAdmin_WhiteLabel\bin\EmpConAdmin_WhiteLabel.dll
+C:\Users\rcooke\Documents\Visual Studio 2010\Projects\EmployeeContract_WhiteLabel\EmpConAdmin_WhiteLabel\bin\EmpConAdmin_WhiteLabel.pdb
+C:\Users\rcooke\Documents\Visual Studio 2010\Projects\EmployeeContract_WhiteLabel\EmpConAdmin_WhiteLabel\obj\Debug\EmpConAdmin_WhiteLabel.dll
+C:\Users\rcooke\Documents\Visual Studio 2010\Projects\EmployeeContract_WhiteLabel\EmpConAdmin_WhiteLabel\obj\Debug\EmpConAdmin_WhiteLabel.pdb

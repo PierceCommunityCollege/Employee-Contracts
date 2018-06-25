@@ -1,0 +1,80 @@
+﻿/********************* RESET *********************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+:focus { outline: 0; }
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul { list-style: none; }
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+/********************* BASE *********************/
+body 
+{
+	background-color: #fff;
+	color: #000;
+	font: normal 13px/18px Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+p { padding: 4px 0; }
+strong { font-weight: bold; }
+
+ul { list-style: square; }
+li { margin: 0 0 0 25px; }
+
+a { color: #990534; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h2 { font: bold 18px/24px Arial, Helvetica, sans-serif; }
+h3 { font: bold 16px/20px Arial, Helvetica, sans-serif; padding: 25px 0 0 0; }
+
+table { padding: 0 10px 40px 10px; width: 880px; }
+
+/********************* LAYOUT *********************/
+#wrap {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#header { border-bottom: 3px solid #ccc; margin: 0 0 20px 0; padding: 15px 0; width: 900px; float: left; }
+	#header-left { width: 360px; float: left; }
+	#header-right { width: 520px; float: left; }
+		#header-right p { font: italic 11px Arial, Helvetica, sans-serif; }
+
+#body { text-align: left; }
+
+#wrap-form { background-color: #eee; border-top: 3px solid #ccc; width: 100%; float: left; }
+
+/********************* OVERWRITE *********************/
+#rblAccountOption, #rblApplicationType { padding: 0; }

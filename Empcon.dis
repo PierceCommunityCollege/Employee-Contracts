@@ -1,0 +1,7 @@
+; byREQUEST Distribution List
+; Saved in format 5
+
+;(default)=MS Word,PC:c:\reports\!s.doc,c:\reports\!s
+
+(default)=MS Word,PC:R:\HPAdmin-ER\ppmser\Employee Contracts\!s
+(default)=Text,PC:R:\HPAdmin-ER\COMPOPER\EMPCONS\!s
